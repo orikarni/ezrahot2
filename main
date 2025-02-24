@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תמיכה בנפגעי פוסט-טראומה</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://source.unsplash.com/1600x900/?nature,trauma');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+            color: white;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+        }
+        h1 {
+            font-size: 38px;
+            margin: 0;
+        }
+        section {
+            margin: 30px 0;
+        }
+        h2 {
+            font-size: 30px;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
+            color: #2980b9;
+
+        }
+        .article {
+            margin: 25px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .article a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .article a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 0 0 12px 12px;
+            margin-top: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 25px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #1abc9c;
+        }
+        .name-list {
+            margin-top: 30px;
+            background-color: #2980b9;
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .name-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .name-list li {
+            margin-bottom: 12px;
+        }
+        .container p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        .article p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>תמיכה בנפגעי פוסט-טראומה</h1>
+        </header>
+        <section>
+            <h2>מדוע יש צורך בשיפור מערך התמיכה?</h2>
+               <p style="color: black;">
+                הצורך בשיפור מערך התמיכה בנפגעי פוסט-טראומה התגבר לאחר מלחמת "חרבות ברזל", בעקבות עלייה חדה במספר הנפגעים. העיכובים בירוקרטיים, חוסר התיאום בין הגורמים השונים וזמני ההמתנה הארוכים פוגעים ביכולת של הנפגעים לקבל את הסיוע המיידי הדרוש להם. כל אלו יוצרים תחושת ניכור ומבודדים את הנפגעים בזמן שהם זקוקים לעזרה באופן הקריטי ביותר. המערכת הקיימת אינה מצליחה להעניק את התמיכה הנדרשת, מה שמוביל להשפעות חמורות ומתמשכות.
+            </p>
+        </section>
+        <section>
+            <h2>כתבות ועדויות</h2>
+            <div class="article">
+                <h3>שיראל - הקריאה שלא נענתה</h3>
+                <p>שיראל הפגינה סימני פוסט-טראומה, אך לא קיבלה את הטיפול הדרוש בזמן. משפחתה מאשימה את הרשויות במחדל. 
+                כל יום נוסף ללא טיפול גובר על כל תחום אחר בחייה. היא נאבקת להחזיר לעצמה את תחושת הביטחון והשליטה בחיים.</p>
+                <a href="https://www.ynet.co.il/news/article/bkgariggjg">לקריאה נוספת</a>
+            </div>
+            <div class="article">
+                <h3>אלירן מזרחי - הלוחם שנשכח</h3>
+                <p>אלירן, לוחם מילואים, אובחן כסובל מפוסט-טראומה, אך בכל זאת נקרא שוב למילואים. יומיים לפני החזרה לשירות, שם קץ לחייו. מותו עורר גל של זעזוע ושאלות קשות על תפקוד הרשויות. כל מקרה כזה מדגיש את הצורך הדחוף בשינוי המערכת.</p>
+                <a href="https://www.kan.org.il/content/kan-news/defense/759077/">לקריאה נוספת</a>
+            </div>
+            <div class="article">
+                <h3>איציק סעידיאן- לוחם צה"ל שנפצע במבצע צוק איתן</h3>
+                <p>סעידיאן נלחם במבצע צוק איתן בשנת 2014 והיה אחד הניצולים מאסון הנגמ"ש, ובעקבות כך סובל מהלם קרב. בשנת 2021 סעידיאן הצית את עצמו מול משרדי אגף השיקום של משרד הביטחון כאות מחאה על היחס והשיקום הרעוע לאנשים אשר מחלתם ניכרת בנפש ולאו דווקא בגוף.</p>
+                <a href="https://www.mako.co.il/pzm-weekend/Article-04d445b009c6f81026.htm">לקריאה נוספת</a>
+            </div>
+        </section>
+        <section>
+            <h2>מה אפשר לעשות?</h2>
+            <p style="color: black;">
+                כדי לסייע לנפגעי פוסט-טראומה, יש להפעיל לחץ על מקבלי ההחלטות, לתמוך בארגונים רלוונטיים ולדרוש רפורמות. זה הזמן לא להסתפק בהבטחות ולדרוש פעולה אמיתית! כל אחד יכול לקחת חלק במאבק הזה, על ידי הצטרפות ליוזמות הקיימות או תמיכה בנפגעים. פעולתם של אנשים פרטיים יכולה ליצור שינוי רחב יותר
+              
+            </p>
+            <p style="color: black;">
+עמותת "לוחמים לחיים" מלווה ומסייעת לוחמים פוסט טראומטים בהליך המשפטי אותו הינם נדרשים לעבור על מנת לקבל הכרה מהמדינה כנכה צה"ל
+ומקיימת פעילויות תומכות על מנת לסייע ללוחמים לחזור לשגרת החיים    
+</p>
+            <a href="https://lohamim.org.il/%D7%90%D7%95%D7%93%D7%95%D7%AA%D7%99%D7%A0%D7%95/" class="cta-button">הצטרפו אליהם</a>
+        </section>
+
+        <section>
+            <h2>תמיכה מהקהילה</h2>
+            <div class="name-list">
+                <p>שמות נוספים שמובילים את המאבק:</p>
+                <ul>
+                    <li>אורי קרני</li>
+                    <li>עומר שגיא</li>
+                    <li>אורי קרדי</li>
+                    <li>יאיר אברהם</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 כל הזכויות שמורות לאורי קרני, אורי קרדי, יאיר אברהם ועומר שגיא</p>
+        </footer>
+    </div>
+</body>
+</html>
